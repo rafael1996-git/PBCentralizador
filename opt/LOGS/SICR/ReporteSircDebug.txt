@@ -1,0 +1,56 @@
+[15/01/2023 23:20:08] [DEBUG] org.springframework.boot.devtools.restart.classloader.RestartClassLoader.<init>(RestartClassLoader.java:85) - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2479c7b1
+[15/01/2023 23:20:09] [INFO ] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting PbCentralizadorApplication using Java 17.0.4.1 on L_P3XHLS08 with PID 11732 (C:\Users\xhls08\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\PBCentralizador\target\classes started by xhls08 in C:\Users\xhls08\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\PBCentralizador)
+[15/01/2023 23:20:09] [DEBUG] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:56) - Running with Spring Boot v2.7.3, Spring v5.3.22
+[15/01/2023 23:20:09] [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:634) - No active profile set, falling back to 1 default profile: "default"
+[15/01/2023 23:20:11] [DEBUG] org.jboss.logging.LoggerProviders.logProvider(LoggerProviders.java:152) - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[15/01/2023 23:20:12] [DEBUG] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:295) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+[15/01/2023 23:20:12] [DEBUG] org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping.detectHandlers(AbstractDetectingUrlHandlerMapping.java:86) - 'beanNameHandlerMapping' {}
+[15/01/2023 23:20:13] [DEBUG] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.logMappings(SimpleUrlHandlerMapping.java:177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+[15/01/2023 23:20:13] [INFO ] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started PbCentralizadorApplication in 4.339 seconds (JVM running for 5.197)
+[15/01/2023 23:20:13] [INFO ] com.eglobal.sirc.PbCentralizadorApplication.run(PbCentralizadorApplication.java:43) - Version PB [1.0.0]
+[15/01/2023 23:20:13] [INFO ] com.eglobal.sirc.PbCentralizadorApplication.run(PbCentralizadorApplication.java:44) - Inicia la generación del reporte de PbCentralizado
+[15/01/2023 23:20:13] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:37) - Argument 1: 2022/03/22
+[15/01/2023 23:20:13] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:37) - Argument 2: 2022/03/22
+[15/01/2023 23:20:13] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:37) - Argument 3: 1
+[15/01/2023 23:20:13] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:40) - valida args. 3
+[15/01/2023 23:20:13] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:112) - [CODERR04, ERROR DE FECHA]
+[15/01/2023 23:20:13] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:113) - Fecha de inicio incorrecta. false
+[15/01/2023 23:20:13] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:114) - Formato correcto [yyyy-MM-dd]
+[15/01/2023 23:20:13] [INFO ] com.eglobal.sirc.PbCentralizadorApplication.run(PbCentralizadorApplication.java:54) - SE ESPERA ARGUMENTOS [FECHA_INICIO],[FECHA_FIN],[VENTANA] REVALIDA Y VUELVE A INTENTAR: false
+[15/01/2023 23:20:13] [INFO ] com.eglobal.sirc.PbCentralizadorApplication.run(PbCentralizadorApplication.java:55) - [CODERR01, NULL]
+[15/01/2023 23:22:36] [DEBUG] org.springframework.boot.devtools.restart.classloader.RestartClassLoader.<init>(RestartClassLoader.java:85) - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5ba8f5b
+[15/01/2023 23:22:36] [INFO ] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting PbCentralizadorApplication using Java 17.0.4.1 on L_P3XHLS08 with PID 21188 (C:\Users\xhls08\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\PBCentralizador\target\classes started by xhls08 in C:\Users\xhls08\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\PBCentralizador)
+[15/01/2023 23:22:36] [DEBUG] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:56) - Running with Spring Boot v2.7.3, Spring v5.3.22
+[15/01/2023 23:22:36] [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:634) - No active profile set, falling back to 1 default profile: "default"
+[15/01/2023 23:22:39] [DEBUG] org.jboss.logging.LoggerProviders.logProvider(LoggerProviders.java:152) - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[15/01/2023 23:22:40] [DEBUG] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:295) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ [/error]}: error(HttpServletRequest)
+[15/01/2023 23:22:40] [DEBUG] org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping.detectHandlers(AbstractDetectingUrlHandlerMapping.java:86) - 'beanNameHandlerMapping' {}
+[15/01/2023 23:22:40] [DEBUG] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.logMappings(SimpleUrlHandlerMapping.java:177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+[15/01/2023 23:22:40] [INFO ] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started PbCentralizadorApplication in 4.372 seconds (JVM running for 5.234)
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.PbCentralizadorApplication.run(PbCentralizadorApplication.java:43) - Version PB [1.0.0]
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.PbCentralizadorApplication.run(PbCentralizadorApplication.java:44) - Inicia la generación del reporte de PbCentralizado
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:37) - Argument 1: 2021-10-22
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:37) - Argument 2: 2021-10-22
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:37) - Argument 3: 2
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:40) - valida args. 3
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:98) - Se valida la fecha de inicio: true
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:100) - Se valida la fecha de fin: true
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.util.Util.validateOrderOfDates(Util.java:376) - Se validara el orden de las: [2021-10-22] [2021-10-22]
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.util.Util.validateOrderOfDates(Util.java:384) - El orden de las fechas es correcto.
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.util.Util.numDaysBetweenDates(Util.java:408) - Numero de dias: [0] 
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:133) - Se valida la ventana de de ejecucion: true
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.util.Util.validateParams(Util.java:134) - ventana de de ejecucion: 2
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.PbCentralizadorApplication.run(PbCentralizadorApplication.java:47) - Se validaron los parametros. 
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.PbCentralizadorApplication.run(PbCentralizadorApplication.java:48) - Inicia la ejecución del Proceso Batch
+[15/01/2023 23:22:40] [INFO ] com.eglobal.sirc.batch.flow.CentraliceReader.beforeStep(CentraliceReader.java:47) - =====================================RECUPERACION DE INFORMACION  2
+[15/01/2023 23:22:41] [INFO ] com.eglobal.sirc.dao.impl.ServiceDaoImpl.getList(ServiceDaoImpl.java:62) - ####################################################### INICIO DE TIEMPO getList:  1673846561565
+[15/01/2023 23:22:41] [INFO ] com.eglobal.sirc.dao.impl.ServiceDaoImpl.getList(ServiceDaoImpl.java:107) - ####################################################### FIN DE TIEMPO getList  [0.0 segundos] 
+[15/01/2023 23:22:41] [INFO ] com.eglobal.sirc.batch.flow.CentraliceWriter.finalizando(CentraliceWriter.java:24) - ================================SE TERMINO LA CENTRALIZACION DE INFORMACION PARA  2
+[15/01/2023 23:22:41] [INFO ] com.eglobal.sirc.PbCentralizadorApplication.run(PbCentralizadorApplication.java:51) - El Job ha finalizado con un estatus [COMPLETED]
+[15/01/2023 23:22:41] [INFO ] com.eglobal.sirc.PbCentralizadorApplication.run(PbCentralizadorApplication.java:52) - [CODSUC00, EXITO]

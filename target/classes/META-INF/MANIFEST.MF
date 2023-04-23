@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Rafael Quinto
+Build-Jdk: 17.0.4.1
+Implementation-Title: PBCentralizador
+Implementation-Version: 1.0.0.0
+Implementation-Vendor-Id: com.eglobal.sirc
+Implementation-URL: https://spring.io/projects/spring-boot/PBCentralizad
+ or
+Created-By: Maven Integration for Eclipse
+
